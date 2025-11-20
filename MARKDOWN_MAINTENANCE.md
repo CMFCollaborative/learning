@@ -297,7 +297,7 @@ Visit: <https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md>
 1. **Run linter before committing** - Catch errors early
 2. **Use auto-fix first** - Let the tool handle most issues
 3. **Fix manual errors gradually** - Don't need to fix everything at once
-4. **Configure, don't disable** - Adjust rules to fit your needs rather than disabling them
+4. **Configure, don't disable** - Adjust rules rather than disabling them
 5. **Keep line length reasonable** - Makes diffs easier to review
 6. **Use consistent heading styles** - Improves readability
 

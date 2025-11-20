@@ -104,7 +104,7 @@ The following steps will guide you through the process of committing a change on
 3. In the **Name your file...** field, enter `PROFILE.md`.
 4. In the **Edit new file** area, copy the following content to your file:
 
-   ```
+   ```markdown
    Welcome to my GitHub profile!
    ```
 
@@ -189,7 +189,7 @@ As noted in the previous step, you may have seen evidence of an action running w
 1. Click **Confirm merge**.
 1. Once your branch has been merged, you don't need it anymore. To delete this branch, click **Delete branch**.<br>
    <img alt="screenshot showing delete branch button" src="/images/delete-branch.png"/>
-2. Check out the **Finish** step to see what you can learn next!<br>
+1. Check out the **Finish** step to see what you can learn next!<br>
    **Note**: Like before, you can wait about 20 seconds, then refresh this page (the one you're following instructions from) and [GitHub Actions](https://docs.github.com/en/actions) will automatically close this step and open the next one.
 
 </details>

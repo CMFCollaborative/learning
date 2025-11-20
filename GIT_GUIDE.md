@@ -311,7 +311,7 @@ git commit -m "changes"
 
 **Format Convention:**
 
-```
+```text
 <type>: <short description>
 
 Types:
