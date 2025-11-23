@@ -96,16 +96,18 @@ Creating a branch allows you to edit to your project without changing the `main`
 
 ### :keyboard: Activity: Your first commit
 
-The following steps will guide you through the process of committing a change on GitHub. Committing a change requires first adding a new file to your new branch. 
+The following steps will guide you through the process of committing a change on GitHub. Committing a change requires first adding a new file to your new branch.
 
 1. On the **Code** tab, make sure you're on your new branch `my-first-branch`.
 2. Select the **Add file** drop-down and click **Create new file**.<br>
    ![create new file option](/images/create-new-file.png)
 3. In the **Name your file...** field, enter `PROFILE.md`.
 4. In the **Edit new file** area, copy the following content to your file:
-   ```
+
+   ```markdown
    Welcome to my GitHub profile!
    ```
+
    <img alt="profile.md file screenshot" src="/images/my-profile-file.png"/>
 5. For commits, you can enter a short commit message that describes what you changes you made. This helps others know what's included in your commit. GitHub offers a simple default message, but let's change it slightly for practice. Enter `Add PROFILE.md` in the first text-entry field below **Commit new file**. Then, if you want to confirm what your screen should look like, expand the dropdown below.
    <details>
@@ -180,13 +182,14 @@ You successfully created a pull request. You can now merge your pull request.
 As noted in the previous step, you may have seen evidence of an action running which automatically progresses your instructions to the next step. You'll have to wait for it to finish before you can merge your pull request. It will be ready when the merge pull request button is green.
 
 ![screenshot of green merge pull request button](/images/Green-merge-pull-request.png)
+
 ### :keyboard: Activity: Merge the pull request
 
 1. Click **Merge pull request**.
 1. Click **Confirm merge**.
 1. Once your branch has been merged, you don't need it anymore. To delete this branch, click **Delete branch**.<br>
    <img alt="screenshot showing delete branch button" src="/images/delete-branch.png"/>
-2. Check out the **Finish** step to see what you can learn next!<br>
+1. Check out the **Finish** step to see what you can learn next!<br>
    **Note**: Like before, you can wait about 20 seconds, then refresh this page (the one you're following instructions from) and [GitHub Actions](https://docs.github.com/en/actions) will automatically close this step and open the next one.
 
 </details>
@@ -213,6 +216,7 @@ Here's a recap of your accomplishments:
 ### What's next?
 
   If you'd like to make a profile README, use the simplified instructions below or follow the instructions in the [Managing your profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) article.
+
   1. Make a new public repository with a name that matches your GitHub username.
   2. Create a file named `README.md` in it's root. The "root" means not inside any folder in your repository.
   3. Edit the contents of the `README.md` file.
@@ -221,6 +225,7 @@ Here's a recap of your accomplishments:
   6. Lastly, we'd love to hear what you thought of this course [in our discussion board](https://github.com/skills/.github/discussions).
 
 Check out these resources to learn more or get involved:
+
 - Are you a student? Check out the [Student Developer Pack](https://education.github.com/pack).
 - [Take another GitHub Skills course](https://github.com/skills).
 - [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).

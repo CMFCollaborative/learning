@@ -1,9 +1,11 @@
 # Git Repository Management Guide
+
 ## Industry Standard Best Practices for Beginners
 
 ---
 
 ## Table of Contents
+
 1. [Initial Setup (New Repository)](#initial-setup-new-repository)
 2. [Daily Workflow](#daily-workflow)
 3. [Branch Management](#branch-management)
@@ -290,6 +292,7 @@ git stash clear
 ### Commit Messages
 
 **Good Commit Messages:**
+
 ```bash
 git commit -m "Add user authentication feature"
 git commit -m "Fix bug in login validation"
@@ -298,6 +301,7 @@ git commit -m "Refactor database connection logic"
 ```
 
 **Bad Commit Messages:**
+
 ```bash
 git commit -m "stuff"
 git commit -m "fixed it"
@@ -306,7 +310,8 @@ git commit -m "changes"
 ```
 
 **Format Convention:**
-```
+
+```text
 <type>: <short description>
 
 Types:
@@ -327,6 +332,7 @@ git commit -m "docs: update API documentation"
 ### When to Commit
 
 **DO Commit When:**
+
 - You've completed a logical unit of work
 - You've fixed a bug
 - You've added a feature (even if small)
@@ -334,6 +340,7 @@ git commit -m "docs: update API documentation"
 - End of your work session
 
 **DON'T Commit When:**
+
 - Code doesn't work/run
 - Code has syntax errors
 - You're in the middle of something
@@ -341,17 +348,20 @@ git commit -m "docs: update API documentation"
 ### When to Branch
 
 **Create a New Branch When:**
+
 - Starting a new feature
 - Fixing a bug
 - Experimenting with something
 - Each separate task
 
 **Work Directly on Main When:**
+
 - Almost never! (exception: very simple docs-only repos)
 
 ### Pull Before Push
 
 **Always do this:**
+
 ```bash
 git pull origin main
 # Then resolve any conflicts
@@ -359,6 +369,7 @@ git push origin main
 ```
 
 **Not this:**
+
 ```bash
 git push origin main  # May fail if remote has changes
 ```
@@ -546,6 +557,7 @@ git checkout other-branch
 ## Quick Reference Commands
 
 ### Status & Information
+
 ```bash
 git status                    # See what's changed
 git log                       # See commit history
@@ -559,6 +571,7 @@ git remote -v                # Show remote repositories
 ```
 
 ### Basic Operations
+
 ```bash
 git add <file>               # Stage specific file
 git add .                    # Stage all changes
@@ -569,6 +582,7 @@ git fetch origin             # Update remote references
 ```
 
 ### Branching
+
 ```bash
 git checkout -b <branch>     # Create and switch to branch
 git checkout <branch>        # Switch to existing branch
@@ -577,6 +591,7 @@ git branch -d <branch>       # Delete local branch
 ```
 
 ### Undoing
+
 ```bash
 git checkout -- <file>       # Discard changes to file
 git reset HEAD <file>        # Unstage file
@@ -600,6 +615,7 @@ Before using `--force`, `--hard`, or deleting things:
 - [ ] Do I know how to undo this?
 
 **When in doubt, create a backup branch:**
+
 ```bash
 git branch backup-$(date +%Y%m%d)
 ```
@@ -618,6 +634,7 @@ git branch backup-$(date +%Y%m%d)
 ## Notes for Future You
 
 Remember:
+
 1. **Commit often** - Small commits are better than large ones
 2. **Pull before push** - Always sync before sharing
 3. **Branch for everything** - Keep main clean

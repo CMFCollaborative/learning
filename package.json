@@ -1,0 +1,22 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "Personal learning repository with markdown maintenance",
+  "private": true,
+  "scripts": {
+    "lint:md": "markdownlint '**/*.md' --ignore node_modules",
+    "lint:md:fix": "markdownlint '**/*.md' --ignore node_modules --fix",
+    "lint:md:check": "markdownlint '**/*.md' --ignore node_modules || echo '\\nRun: npm run lint:md:fix to auto-fix issues'",
+    "clean:md": "npm run lint:md:fix && echo '✅ Markdown files cleaned successfully!'"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.39.0"
+  },
+  "keywords": [
+    "learning",
+    "documentation",
+    "markdown"
+  ],
+  "author": "",
+  "license": "ISC"
+}
